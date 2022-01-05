@@ -31,7 +31,48 @@ textarea{
         object-position: top;
     }
 }
+.sidebar-menu-scroll , 
+.navbar-brand-box , 
+.navbar-header{
+    background-color: var(--primary) !important;
 
+    .btn , .uil-search ,
+    .header-item ,
+    .noti-icon i {
+        color: #fff !important;
+    }
+
+    .form-control{
+        color: #fff !important;
+
+        &::placeholder{
+            color: #fff !important;
+        }
+    }
+}
+body{
+    background-color: rgba($color: #34689c , $alpha: .1) !important;
+}
+.navbar-header .dropdown.show .header-item{
+    background-color: rgba($color: #34689c , $alpha: .3) !important;
+}
+.fa-bars {
+    color: #fff !important;
+}
+#sidebar-menu ul li a , #sidebar-menu ul li a i ,
+#sidebar-menu ul li ul.sub-menu li a{
+    color: #fff;
+
+    &:hover , &.active{
+        color: var(--secondary) !important;
+    }
+}
+#sidebar-menu ul li a:hover i , #sidebar-menu ul li a.active i{
+    color: var(--secondary) !important;
+}
+.mm-active>a{
+    background-color: transparent !important;
+}
 .upload-content{
     width: 100px;
     height: 100px;
@@ -244,6 +285,11 @@ h1 , h2 , h3 , h4 , h5 ,h6{
         th , td{
             min-width: 180px !important;
         }
+    }
+
+    .navbar-header .btn{
+        padding-left: 7px !important;
+        padding-right: 7px !important;
     }
 }
 

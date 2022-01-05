@@ -139,6 +139,87 @@ textarea {
      object-position: top;
 }
 
+.sidebar-menu-scroll,
+.navbar-brand-box,
+.navbar-header {
+  background-color: var(--primary) !important;
+}
+
+.sidebar-menu-scroll .btn, .sidebar-menu-scroll .uil-search,
+.sidebar-menu-scroll .header-item,
+.sidebar-menu-scroll .noti-icon i,
+.navbar-brand-box .btn,
+.navbar-brand-box .uil-search,
+.navbar-brand-box .header-item,
+.navbar-brand-box .noti-icon i,
+.navbar-header .btn,
+.navbar-header .uil-search,
+.navbar-header .header-item,
+.navbar-header .noti-icon i {
+  color: #fff !important;
+}
+
+.sidebar-menu-scroll .form-control,
+.navbar-brand-box .form-control,
+.navbar-header .form-control {
+  color: #fff !important;
+}
+
+.sidebar-menu-scroll .form-control::-webkit-input-placeholder,
+.navbar-brand-box .form-control::-webkit-input-placeholder,
+.navbar-header .form-control::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.sidebar-menu-scroll .form-control:-ms-input-placeholder,
+.navbar-brand-box .form-control:-ms-input-placeholder,
+.navbar-header .form-control:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.sidebar-menu-scroll .form-control::-ms-input-placeholder,
+.navbar-brand-box .form-control::-ms-input-placeholder,
+.navbar-header .form-control::-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.sidebar-menu-scroll .form-control::placeholder,
+.navbar-brand-box .form-control::placeholder,
+.navbar-header .form-control::placeholder {
+  color: #fff !important;
+}
+
+body {
+  background-color: rgba(52, 104, 156, 0.1) !important;
+}
+
+.navbar-header .dropdown.show .header-item {
+  background-color: rgba(52, 104, 156, 0.3) !important;
+}
+
+.fa-bars {
+  color: #fff !important;
+}
+
+#sidebar-menu ul li a, #sidebar-menu ul li a i,
+#sidebar-menu ul li ul.sub-menu li a {
+  color: #fff;
+}
+
+#sidebar-menu ul li a:hover, #sidebar-menu ul li a.active, #sidebar-menu ul li a i:hover, #sidebar-menu ul li a i.active,
+#sidebar-menu ul li ul.sub-menu li a:hover,
+#sidebar-menu ul li ul.sub-menu li a.active {
+  color: var(--secondary) !important;
+}
+
+#sidebar-menu ul li a:hover i, #sidebar-menu ul li a.active i {
+  color: var(--secondary) !important;
+}
+
+.mm-active > a {
+  background-color: transparent !important;
+}
+
 .upload-content {
   width: 100px;
   height: 100px;
@@ -195,7 +276,7 @@ textarea {
 }
 
 .upload-content .pen i {
-  color: #3AAFA9;
+  color: var(--secondary);
   font-size: 15px;
 }
 
@@ -344,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inovice-data-contain .inovice-table .contain li span {
-  color: #00A79D;
+  color: var(--secondary);
   font-size: 20px;
   font-weight: 700;
 }
@@ -358,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .inovice-data-contain .copyrights {
   padding: 20px 0px;
-  background-color: #00A79D;
+  background-color: var(--secondary);
   width: 100%;
   margin-top: 40px;
 }
@@ -409,6 +490,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .table-responsive th, .table-responsive td {
     min-width: 180px !important;
+  }
+  .navbar-header .btn {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
   }
 }
 
